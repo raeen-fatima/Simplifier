@@ -1,12 +1,39 @@
-# React + Vite
+#  GovDocs Simplifier - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and user-friendly frontend for the **GovDocs Simplifier** project – built to simplify complex government documents into plain, understandable language using AI.
 
-Currently, two official plugins are available:
+##  Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To help users better understand government policies and documents by simplifying them through an intuitive and clean UI with drag-and-drop file upload and bilingual support.
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  File upload (PDF/Text) with drag-and-drop
+-  Text simplification via backend integration
+-  Language toggle: English ↔ Hindi
+-  Side-by-side view: Original vs Simplified
+-  Glassmorphism + Responsive UI
+-  Brand integration (logo, landing layout)
+
+##  Tech Stack
+
+- **Framework**: React.js
+- **Styling**: Tailwind CSS, Glassmorphism Design
+- **Routing**: React Router
+- **State Management**: useState, useEffect
+- **File Handling**: FileReader API
+
+##  Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/raeen-fatima/govdocs-simplifier-frontend.git
+
+# Navigate into the project directory
+cd govdocs-simplifier-frontend
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
