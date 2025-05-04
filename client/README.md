@@ -27,7 +27,7 @@ To help users better understand government policies and documents by simplifying
 
 ```bash
 # Clone the repo
-git clone https://github.com/raeen-fatima/govdocs-simplifier-frontend.git
+git clone https://github.com/raeen-fatima/Simplifier.git
 
 # Navigate into the project directory
 cd govdocs-simplifier-frontend
